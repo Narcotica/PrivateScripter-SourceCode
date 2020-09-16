@@ -1,7 +1,3 @@
-# uncompyle6 version 3.7.3
-# Python bytecode 3.8 (3413)
-# Decompiled from: Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)]
-# Embedded file name: private.py
 import colorama, discord
 from discord.ext import commands, tasks
 from colorama import Fore
