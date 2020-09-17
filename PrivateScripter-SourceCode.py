@@ -42,10 +42,7 @@ def Authgg():
         root.withdraw()
         hwid = str(subprocess.check_output('wmic csproduct get uuid')).split('\\r\\n')[1].strip('\\r').strip()
         BUF_SIZE = 65536
-        md5 = hashlib.md5()# uncompyle6 version 3.7.3
-# Python bytecode 3.8 (3413)
-# Decompiled from: Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)]
-# Embedded file name: private.py
+        md5 = hashlib.md5()
 import colorama, discord
 from discord.ext import commands, tasks
 from colorama import Fore
@@ -382,10 +379,10 @@ def Color():
 
 
 check()
-crackedby = "Cracked by Akiko and Vanix"
+crackedby = "Cracked by Zarq and Xheyo"
 time.sleep(1)
 def Design():
-    ctypes.windll.kernel32.SetConsoleTitleW("Private Tool Cracked by Akiko and Vanix")
+    ctypes.windll.kernel32.SetConsoleTitleW("Private Tool Cracked by Zarq and Xheyo")
     print(colortouse + crackedby + '    \n                                ██▓███   ██▀███   ██▓ ██▒   █▓ ▄▄▄     ▄▄▄█████▓▓█████             \n                               ▓██░  ██▒▓██ ▒ ██▒▓██▒▓██░   █▒▒████▄   ▓  ██▒ ▓▒▓█   ▀       \n                               ▓██░ ██▓▒▓██ ░▄█ ▒▒██▒ ▓██  █▒░▒██  ▀█▄ ▒ ▓██░ ▒░▒███          \n                               ▒██▄█▓▒ ▒▒██▀▀█▄  ░██░  ▒██ █░░░██▄▄▄▄██░ ▓██▓ ░ ▒▓█  ▄      \n                               ▒██▒ ░  ░░██▓ ▒██▒░██░   ▒▀█░   ▓█   ▓██▒ ▒██▒ ░ ░▒████▒      \n                               ▒▓▒░ ░  ░░ ▒▓ ░▒▓░░▓     ░ ▐░   ▒▒   ▓▒█░ ▒ ░░   ░░ ▒░ ░      \n                               ░▒ ░       ░▒ ░ ▒░ ▒ ░   ░ ░░    ▒   ▒▒ ░   ░     ░ ░  ░      \n                               ░░         ░░   ░  ▒ ░     ░░    ░   ▒    ░         ░         \n                                           ░      ░        ░        ░  ░           ░  ░\n                                                           ░                                       \n                ')
 
 
