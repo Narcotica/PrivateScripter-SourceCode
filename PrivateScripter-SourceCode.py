@@ -379,7 +379,7 @@ def Color():
 
 
 check()
-crackedby = "Cracked by Zarq and Xheyo"
+crackedby = "Cracked by Akiko and Xheyo"
 time.sleep(1)
 def Design():
     ctypes.windll.kernel32.SetConsoleTitleW("Private Tool Cracked by Zarq and Xheyo")
